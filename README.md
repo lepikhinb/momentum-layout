@@ -17,7 +17,7 @@ yarn add momentum-layout
 Then, register the plugin by importing it and pushing it to the `plugins` array in
 vite.config.ts
 
-```vue
+```ts
 import { defineConfig } from "vite"
 import inertiaLayout from "momentum-layout"
 
