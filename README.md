@@ -89,6 +89,7 @@ Momentum is a set of packages designed to improve your experience building Inert
 - [Paginator](https://github.com/lepikhinb/momentum-paginator) — Headless wrapper around Laravel Pagination
 - [Trail](https://github.com/lepikhinb/momentum-trail) — Frontend package to use Laravel routes with Inertia
 - [Lock](https://github.com/lepikhinb/momentum-lock) — Frontend package to use Laravel permissions with Inertia
+- [Layout](https://github.com/lepikhinb/momentum-layout) — Persistent layouts for Vue 3 apps
 - [Vite Plugin Watch](https://github.com/lepikhinb/vite-plugin-watch) — Vite plugin to run shell commands on file changes
 
 ## Credits
