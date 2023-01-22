@@ -33,14 +33,14 @@ export default defineConfig({
 
 `defineLayout` is a compile-time macro. It's not an actual method that needs to be imported.
 
-To make the TypeScript engine understand the macro, add `momentum-inertia-layout/macro` to the array `types` in `tsconfig.json`.
+To make the TypeScript engine understand the macro, add `momentum-layout/macro` to the array `types` in `tsconfig.json`.
 
 ```json
 {
   "compilerOptions": {
     "types": [
       "vite/client",
-      "momentum-inertia-layout/macro"
+      "momentum-layout/macro"
     ]
   }
 }
