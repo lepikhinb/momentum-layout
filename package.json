@@ -1,0 +1,56 @@
+{
+  "name": "momentum-layout",
+  "description": "A Vue 3 compiler macro to define persistent layouts in Inertia.js apps",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run lint && npm run format && vite build && tsc",
+    "lint": "eslint \"src/**\" --fix",
+    "format": "prettier src/ --write"
+  },
+  "keywords": [
+    "laravel",
+    "inertia",
+    "vue",
+    "layout"
+  ],
+  "author": "Boris Lepikhin<https://twitter.com/lepikhinb>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lepikhinb/momentum-layout.git"
+  },
+  "homepage": "https://github.com/lepikhinb/momentum-layout#readme",
+  "files": [
+    "dist",
+    "macro.d.ts"
+  ],
+  "type": "module",
+  "main": "./dist/momentum-layout.umd.cjs",
+  "module": "./dist/momentum-layout.js",
+  "exports": {
+    ".": {
+      "import": "./dist/momentum-layout.js",
+      "require": "./dist/momentum-layout.umd.cjs"
+    }
+  },
+  "types": "./dist/types/index.d.ts",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-define-config": "^1.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
